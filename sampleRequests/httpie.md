@@ -25,13 +25,13 @@ http POST :4000/echo hello="world" number:=0 cheesesArray:='["cheddar", "rochefo
 ## POST /signup
 
 ```bash
-http POST :4000/signup email="newuser@fastcompany.com" password="test1234" name="John Doe"
+http POST :4000/auth/signup email="newuser@fastcompany.com" password="test1234" name="John Doe"
 ```
 
 ## POST /login
 
 ```bash
-http POST :4000/login email="test@test.com" password="test1234"
+http POST :4000/auth/login email="test@test.com" password="test1234"
 ```
 
 ## GET /me
